@@ -1,0 +1,26 @@
+# Build / packaging artifacts
+dist/
+*.zip
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Node (for future tooling around extension.mjs)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Local secrets / env files — never commit
+.env
+.env.*
+*.local

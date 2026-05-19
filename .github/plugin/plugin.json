@@ -1,0 +1,28 @@
+{
+  "name": "multi-agent-convergence",
+  "description": "Research-grade multi-agent adversarial convergence protocol. Enforces multi-turn debate between sub-agents from different model families, transparent assumption disclosure (Decision Cards), adversarial verification, research rigor checks, and goal-centered work. Designed for research and engineering projects where surface-level agreement is unacceptable.",
+  "version": "1.1.0",
+  "author": {
+    "name": "ravisha22"
+  },
+  "repository": "https://github.com/ravisha22/Research-Harness-Agent",
+  "license": "MIT",
+  "keywords": [
+    "research",
+    "multi-agent",
+    "convergence",
+    "consensus",
+    "adversarial-review",
+    "rigor",
+    "assumptions",
+    "decision-cards",
+    "rule-of-three",
+    "brainstorm"
+  ],
+  "agents": [
+    "./agents"
+  ],
+  "skills": [
+    "./skills/multi-agent-convergence"
+  ]
+}
