@@ -24,3 +24,7 @@ package-lock.json
 .env
 .env.*
 *.local
+
+# Capability-cartography research extracted to ../Project-Sigma (private) — not tracked here
+eval/
+docs/experiments/
